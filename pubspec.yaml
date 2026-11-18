@@ -1,0 +1,23 @@
+name: dincharya
+description: Voice-first daily planner, timetable and journal.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^7.0.0
+  flutter_local_notifications: ^19.0.0
+  timezone: ^0.10.0
+  share_plus: ^11.0.0
+  path_provider: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
